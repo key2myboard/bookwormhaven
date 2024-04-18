@@ -1,0 +1,57 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay-text {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+body {
+    background-color: #f5ede4;
+}
+
+/* Line-Height */
+p {
+    line-height: 1.5;
+}
+
+/* Spacing Letters */
+h2 ~ p {
+    letter-spacing: 2px;
+}
+h1, h3 {
+    letter-spacing: 3px;
+}
+
+/* Text Transform */
+h3 + p {
+    text-transform: uppercase;
+}
+
+/* Text Decoration */
+h3 {
+    text-decoration: overline underline;
+}
+
+/* Text Alignment */
+#heading {
+    text-align: center;
+}
+
+h3 ~ p {
+    text-align: justify;
+}
+
+header > h6 {
+    text-align: right;
+}
